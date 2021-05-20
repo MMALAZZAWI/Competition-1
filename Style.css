@@ -1,0 +1,615 @@
+body {
+  background-color: rgba(248, 249, 252, 0.247);
+}
+
+/*Header Style*/
+.header {
+  background-image: url(blue_bg.png);
+  display: flex;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  background-size:contain;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  justify-content: left;
+  margin-top: 20px;
+  margin-left: 40px;
+  box-sizing: content-box;
+}
+
+.nav div {
+  width: 100px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 15px;
+  height: 100px;
+  justify-content: center;
+  text-align: center;
+  font-size: larger;
+  margin-left: 10px;
+}
+
+.nav div a {
+  text-decoration: none;
+  color: rgb(80, 78, 78);
+}
+
+.nav div :hover {
+  text-decoration: underline rgb(163, 0, 149);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 4px;
+}
+
+.logo {
+  width: 140px;
+  height: 100px;
+}
+
+.login {
+  justify-content: center;
+  text-align: center;
+  margin-left: 550px;
+  background-color: rgb(255, 255, 255);
+  padding: 5px 25px 5px 25px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.header1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.headerpar {
+  font-size: 20pt;
+  color: rgb(70, 68, 68);
+  width: 600px;
+  height: 300px;
+  margin-left: 100px;
+}
+
+.titlepar {
+  font-size: 40pt;
+  line-height: 2;
+}
+
+.delv {
+  color: rgb(163, 0, 149);
+  font-weight: bold;
+}
+
+.headerimg {
+  background-image: url(landing_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 650px;
+  height: 650px;
+  display: flex;
+  position: relative;
+}
+
+.headerimg1 {
+  margin-left: 120px;
+  box-sizing: border-box;
+  width: 300px;
+  height: 470px;
+  position: absolute;
+}
+
+.headerimg2 {
+  position: absolute;
+  margin-top: 350px;
+}
+
+.headerwaves {
+  position: absolute;
+  margin-top: 480px;
+  margin-right: 700px;
+}
+
+.headerwaves img {
+  width: 1450px;
+  height: 200px;
+}
+
+/*Main Style*/
+
+/*Section one*/
+.sec1 {
+  margin-top: 20px;
+  width: auto;
+  height: 900px;
+  position: relative;
+  display: flex;
+}
+
+.sec1img1 {
+  margin-left: 100px;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.parimg2 {
+  width: 260px;
+  height: 100px;
+  margin-top: 300px;
+  position: absolute;
+  text-align: center;
+}
+
+.sec1img2 {
+  width: auto;
+  height: auto;
+  position: absolute;
+  margin-top: 100px;
+}
+
+.parimg2 {
+  width: 260px;
+  height: 100px;
+  margin-top: 300px;
+  position: absolute;
+  text-align: center;
+  color: rgb(70, 68, 68);
+}
+
+.sec1img3 {
+  width: auto;
+  height: auto;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 600px;
+}
+
+.parimg3 {
+  width: 300px;
+  height: 100px;
+  margin-top: 500px;
+  margin-left: 570px;
+  position: absolute;
+  text-align: center;
+  color: rgb(70, 68, 68);
+}
+
+.sec1img4 {
+  width: 260px;
+  height: auto;
+  position: absolute;
+  margin-top: 640px;
+  margin-left: 1010px;
+}
+
+.parimg4 {
+  width: 310px;
+  height: 100px;
+  margin-top: 800px;
+  margin-left: 980px;
+  position: absolute;
+  text-align: center;
+  color: rgb(70, 68, 68);
+}
+
+.sec1img5 {
+  width: 280px;
+  height: 260px;
+  background-image: url(why_kudzoka_bg.png);
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  margin-top: 640px;
+  margin-left: 20px;
+}
+
+.parimg5 {
+  margin-left: 70px;
+  margin-top: 90px;
+  color: cornsilk;
+}
+
+.kudlogo {
+  font-size: 25pt;
+}
+
+/*Section Tow*/
+.sec2{
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec2img{
+  width: 260px;
+  height: 250px;
+}
+
+.sec2 a{
+  text-decoration: none;
+}
+
+.sec2a1{
+  width: 20px;
+  height: 20px;
+  margin: 160px 20px 0px 50px;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.sec2a2{
+  width: 20px;
+  height: 20px;
+  margin: 160px 30px 0px 30px;
+  font-size: 12pt;
+  font-weight: bolder;
+}
+
+.sec2mid{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+
+.sec2img2{
+  width: 350px;
+  height: 350px;
+}
+
+.sec2par{
+  margin-bottom: 50px;
+  width: 200px;
+  text-align: center;
+  font-size: 12pt;
+}
+.sec2partitle{
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+/*Footer Style*/
+.footer{
+  width: 1335px;
+  height: 540px;
+  display: flex;
+  background-image: url(Group\ 1131.png);
+  background-repeat: no-repeat;
+  background-size: 115%;
+  background-position:top;
+  justify-content:center;  
+  align-items: center;
+}
+
+.footimg{
+  width: 550px;
+  height: 420px;
+  margin-top: 124px;
+}
+
+.footleft{
+  display: flex;
+  margin-top: 300px;
+  flex-direction: column;
+  margin-top: 340px;
+  margin-right: 150px;
+}
+
+.applelink{
+  padding: 1px 10px;
+  background-color: ivory;
+  text-decoration: none;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  margin-left: 10px;
+}
+
+.applelink img{
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.footleft div{
+  display: flex;
+  width: 330px;
+  padding: 5px;
+}
+
+.footleft2 img{
+  margin-left: 15px;
+}
+
+.footernav a{
+  text-decoration: none;
+  color: antiquewhite;
+  display: flex;
+  font-size: 15px;
+  margin-left: 10px;
+  width: 100px;
+}
+
+.footernav div :hover {
+  text-decoration: underline rgb(163, 0, 149);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 4px;
+}
+
+/*Phones Screen*/
+@media screen and (min-width: 100px) and (max-width: 600px) {
+  /*Header Style*/
+  .header {
+    width: 600px;
+    background-position: center;
+    background-size: cover;
+  }
+  .nav {
+  font-size: 6pt;
+  width: 450px;
+}
+
+  .nav div :hover {
+    text-decoration-thickness: 1px;
+    text-underline-offset: 1.5px;
+  }
+  
+  .logo {
+    width: 70px;
+    height: 70px;
+    box-sizing: content-box;
+
+  }
+  
+  .login {
+    margin-left: 70px;
+    padding: 5px 15px;
+    box-sizing: content-box;
+
+  }
+  .header1{
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+  }
+  
+  .headerpar {
+    font-size: 6pt;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 150px;
+    margin-top: -80px;
+
+  }
+  
+  .titlepar {
+    font-size: 8pt;
+
+  }
+  
+  
+  .headerimg {
+    width: 250px;
+    height: 200px;
+    margin-top: -20px;
+    margin-left: -150px;
+  }
+  
+  .headerimg1 {
+    margin-left: 20px;
+    width: 150px;
+    height: 180px;
+    margin-top: -20px;
+  }
+  
+  .headerimg2 {
+    margin-top: 130px;
+    width: 150px;
+    margin-left: 40px;
+  }
+  
+  .headerwaves {
+    margin-top: 180px;
+    margin-right: 350px;
+  }
+  
+  .headerwaves img {
+    width:700px;
+    height: 50px;
+  }
+  
+  /*Main Style*/
+  
+  /*Section one*/
+  .sec1 {
+    margin-top: 20px;
+    width: 550px;
+    height: fit-content;
+    margin-left: 40px;
+  }
+  
+  .sec1img1 {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 480px;
+    height: 400px;
+  }
+  
+  
+  .sec1img2 {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+  }
+  
+  .parimg2 {
+    width: 100px;
+    height: 100px;
+    margin-top: 160px;
+    font-size: 6pt;
+  }
+  
+  .sec1img3 {
+    width: 100px;
+    height: 100px;
+    margin-top: 210px;
+    margin-left: 200px;
+  }
+  
+  .parimg3 {
+    width: 100px;
+    height: 100px;
+    margin-top: 320px;
+    margin-left: 200px;
+    font-size: 6pt;
+  }
+  
+  .sec1img4 {
+    width: 100px;
+    height: 100px;
+    margin-top: 400px;
+    margin-left: 380px;
+  }
+  
+  .parimg4 {
+    width: 100px;
+    height: 100px;
+    margin-top: 510px;
+    margin-left: 380px;
+    font-size: 6pt;
+
+  }
+  
+  .sec1img5 {
+    width: 150px;
+    height: 150px;
+    margin-top: 410px;
+    margin-left: 20px;
+  }
+  
+  .parimg5 {
+    margin-left: 40px;
+    margin-top: 50px;
+    font-size: 6pt;
+
+  }
+  
+  .kudlogo {
+    font-size: 12pt;
+  }
+  
+  /*Section Tow*/
+  .sec2{
+    width: 500px;
+    height: auto;
+    display: flex;
+    margin-top: 650px;
+    margin-left: 40px;
+  }
+  
+  .sec2img{
+    width: 100px;
+    height: 100px;
+  }
+  
+  .sec2a1{
+    width: 20px;
+    height: 20px;
+    margin: 100px 20px 0px;
+    font-size: 8pt;
+  }
+  
+  .sec2a2{
+    width: 20px;
+    height: 20px;
+    margin: 100px 20px 0px ;
+    font-size: 8pt;
+  }
+  
+  .sec2mid{
+    margin-top:100px;
+  }
+  
+  .sec2img2{
+    width: 150px;
+    height: 120px;
+  }
+  
+  .sec2par{
+    margin-bottom: 50px;
+    width: 100px;
+    font-size: 6pt;
+  }
+  .sec2partitle{
+    font-weight: bold;
+    font-size: 6pt;
+  }
+  
+  /*Footer Style*/
+  .footer{
+    width: 600px;
+    height: 250px;
+  }
+  
+  .footimg{
+    width: 200px;
+    height: 200px;
+    margin-top: 53px;
+    margin-right: 80px;
+  }
+  
+  .footleft{
+    margin-top: 150px;
+    margin-right: 150px;
+    font-size: 6pt;
+  }
+  
+  .applelink{
+    padding: 1px 10px;
+    width: 100px;
+    margin-left: 10px;
+  }
+  
+  .applelink img{
+    width: 10px;
+    height: 10px;
+    margin-top: 10px;
+  }
+  
+  .footleft div{
+    width: 150px;
+    padding: 1px;
+    margin-left: 20px;
+  }
+  
+  .footleft2 img{
+    margin-left: 15px;
+    width: 15px;
+    height: 15px;
+  }
+  
+  .footernav a{
+    font-size: 6pt;
+    margin-left: 10px;
+    width: 30px;
+  }
+  
+  .footernav div :hover {
+    text-decoration: underline rgb(163, 0, 149);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+  }
